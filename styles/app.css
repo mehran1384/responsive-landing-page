@@ -1,0 +1,573 @@
+:root {
+    --regular: 'inter regular';
+    --medium: 'inter medium';
+    --semi-bold: 'inter semi-bold';
+    --bold: 'inter bold';
+    --green-primary: #4CAF4F;
+    --silver: #F5F7FA;
+    --grey: #717171;
+    --d-grey: #4D4D4D;
+    --l-gery: #89939E;
+    --white: #FFFFFF;
+    --silver-2: #D9DBE1;
+    --black: #263238;
+    --grey-900: #18191F;
+}
+
+/*  -/-/-/-/-/-/-/-/-/-/ Reset Style /-/-/-/-/-/-/-/-/-/- */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+}
+
+
+
+/*  -/-/-/-/-/-/-/-/-/-/ Helper Class /-/-/-/-/-/-/-/-/-/- */
+
+/* -/-/-/-/-/ Containers /-/-/-/-/ */
+
+.container, .container-nav {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.container-nav {
+    max-width: 1215px;
+}
+
+/* -/-/-/-/-/ Background Colors /-/-/-/-/ */ 
+
+.bg-green-primary {
+    background-color: var(--green-primary);
+}
+
+.bg-silver {
+    background-color: var(--silver);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-d-grey {
+    background-color: var(--d-grey);
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-black {
+    background-color: var(--black) !important;
+}
+
+/* -/-/-/-/-/ Colors /-/-/-/-/ */ 
+
+.text-green-primary {
+    color: var(--green-primary);
+}
+
+.text-silver {
+    color: var(--silver);
+}
+
+.text-silver-2 {
+    color: var(--silver-2);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-d-grey {
+    color: var(--d-grey);
+}
+
+.text-l-grey {
+    color: var(--l-gery);
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.text-grey-900 {
+    color: var(--grey-900);
+}
+
+/* -/-/-/-/-/ Borders /-/-/-/-/ */ 
+
+.border-green-primary {
+    border: 1px solid var(--green-primary);
+}
+
+.border-silver {
+    border: 1px solid var(--silver);
+}
+
+.border-grey {
+    border: 1px solid var(--grey);
+}
+
+.border-d-grey {
+    border: 1px solid var(--d-grey);
+}
+
+.border-white {
+    border: 1px solid var(--white);
+}
+
+.border-black {
+    border: 1px solid var(--black);
+}
+
+.border-grey-900 {
+    border: 1px solid var(--grey-900);
+}
+
+/* -/-/-/-/-/ Border Radius /-/-/-/-/ */ 
+
+.radius-6 {
+    border-radius: 6px;
+}
+
+/* -/-/-/-/-/ Spacing /-/-/-/-/ */ 
+
+.mt-92 {
+    margin-top: 92px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+/* -/-/-/-/-/ center /-/-/-/-/ */ 
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -/-/-/-/-/ Heading /-/-/-/-/ */ 
+
+.heading-1 {
+    font: 600 1.625rem / 36px var(--semi-bold);
+}
+
+.heading-2 {
+    font: 600 1.625rem / 36px var(--semi-bold);
+}
+
+.heading-3 {
+    font: 700 1.75rem / 36px var(--bold);
+}
+
+.heading-4 {
+    font: 600 1.25rem / 28px var(--semi-bold);
+}
+
+/* -/-/-/-/-/ Medium /-/-/-/-/ */ 
+
+.medium-1 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.medium-2 {
+    font: 500 0.875rem / 24px var(--medium);
+}
+
+.medium-3 {
+    font: 500 0.875rem / 20px var(--medium);
+}
+
+.medium-4 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* -/-/-/-/-/ Regular /-/-/-/-/ */ 
+
+.regular-1 {
+    font-family: var(--regular);
+    font-size: 18px;
+    font-weight: 28px;
+}
+
+.regular-2 {
+    font: 400 0.875rem / 22px var(--regular);
+}
+
+.regular-3 {
+    font: 400 0.875rem / 20px var(--regular);
+}
+
+.regular-4 {
+    font-family: var(--regular);
+    font-size: 12px;
+    font-weight: 16px;
+}
+
+/*  -/-/-/-/-/-/-/-/-/-/ Component /-/-/-/-/-/-/-/-/-/- */
+
+/* -/-/-/-/-/ overlay /-/-/-/-/ */ 
+
+.overlay {
+    height: 100%;
+    visibility: hidden;
+    transition: background-color 300ms ease;
+}
+
+.overlay--open {
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: unset;
+    position: fixed;
+}
+
+/* -/-/-/-/-/ Btn LInk /-/-/-/-/ */ 
+
+.btn-link {
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+
+/* -/-/-/-/-/ Opacity /-/-/-/-/ */ 
+
+.opacity-none {
+    opacity: 0;
+}
+
+/*  -/-/-/-/-/-/-/-/-/-/ Customs Style /-/-/-/-/-/-/-/-/-/- */
+
+/* -/-/-/-/-/ Navbar /-/-/-/-/ */ 
+
+.navbar {
+    height: 84px;
+}
+
+.btn {
+    width: 48px;
+    height: 48px;
+}
+
+/* -/-/-/-/-/ Btn /-/-/-/-/ */ 
+
+.btn span, .btn span::before, .btn span::after {
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: var(--d-grey);
+}
+
+.btn span::before, .btn span::after {
+    content: '';
+    position: absolute;
+}
+
+.btn--open span {
+    background-color: transparent;
+}
+
+.btn--open span::before {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.btn--open span::after {
+    transform: translateY(-12px) rotate(-45deg);
+}
+
+.btn--open {
+    background-color: var(--white);
+}
+
+.btn:hover {
+    background-color: var(--white);
+}
+
+.btn span::before {
+    bottom: 12px;
+}
+
+.btn span::after {
+    top: 12px;
+}
+
+.btn span::before, .btn span::after {
+    transition: transform 300ms ease;
+}
+
+/* -/-/-/-/-/ Navbar Mobile /-/-/-/-/ */
+
+.navbar-mobile {
+    left: -240px;
+    width: 240px;
+    transition: left 300ms ease;
+}
+
+/* -/-/-/-/-/ Form /-/-/-/-/ */
+
+.form {
+    width: 18%;
+}
+
+.form a {
+    height: 40px;
+    width: 70px;
+}
+
+.form-mobile a {
+    width: 70px;
+    height: 32px;
+    transition: all 300ms ease;
+}
+
+.form-mobile a:hover {
+    color: var(--white);
+    background-color: var(--green-primary);
+}
+
+.btn-primary {
+    width: 90px;
+}
+
+/* -/-/-/-/-/ Circles /-/-/-/-/ */
+
+.circles {
+    width: 46px;
+    height: 10px;
+    bottom: -22px;
+    right: 20px;
+}
+
+.circles span {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: opacity 300ms ease;
+}
+
+/* -/-/-/-/-/ Clients /-/-/-/-/ */
+
+.client-top p {
+    width: 270px;
+}
+
+.client-text  {
+    flex: 0 0 0;
+}
+
+.client-text a {
+    width: 219px;
+
+}
+
+/* -/-/-/-/-/ Community /-/-/-/-/ */
+
+.community-top h2 {
+    width: 270px;
+}
+
+.card-community {
+    width: 100%;
+    height: 260px;
+    padding: 32px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+}
+
+.card-community p {
+    width: 257px;
+}
+
+/* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+.unlock-top img {
+    width: 100%;
+}
+
+.unlock-bottom h2 {
+    width: 237px;
+}
+
+.unlock-bottom p {
+    width: 298px;
+}
+
+.unlock-bottom__btn {
+    width: 110px;
+}
+
+/* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+.achievement-card h3 {
+    width: 287px;
+}
+
+.achievement-card p {
+    width: 200px;  
+}
+
+.achievement-card div {
+    width: 255px;
+    height: 60px;
+}
+
+/* -/-/-/-/-/ Unlock 2 /-/-/-/-/ */
+
+.unlock-caption {
+    width: 255px;
+}
+
+.unlock-bottom--text p {
+    width: 256px;
+}
+
+
+/* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+.custom-top img {
+    width: 100%;
+}
+
+.custom-bottom p {
+    width: 278px;
+}
+
+.custom-col {
+    width: 50%;
+}
+
+.custom-active {
+    width: 100%;
+}
+
+.custom-bottom__client {
+    width: 100%;
+}
+
+/* -/-/-/-/-/ Update /-/-/-/-/ */
+
+.update-text p {
+    width: 273px;
+}
+
+.update-wrap {
+    margin-bottom: 90px;
+}
+
+.update-wrap img {
+    width: 273px;
+    height: 212px;
+}
+
+.update-card {
+    width: 220px;
+    height: 140px;
+    bottom: -70px;
+    box-shadow: 0px 2.67093px 5.34186px rgba(171, 190, 209, 0.4);
+}
+
+.update-card h4 {
+    font-size: 0.875rem;
+    line-height: 24px;
+}
+
+.update-card a {
+    height: 44px;
+    font-size: 0.75rem;
+}
+
+.update-card a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* -/-/-/-/-/ Last Title /-/-/-/-/ */
+
+.last-title {
+    
+}
+
+.last-title-wrap h2 {
+    width: 265px;
+}
+
+.last-title-wrap a img {
+    margin-left: 12px;
+}
+
+/* -/-/-/-/-/ Footer /-/-/-/-/ */
+
+.footer-top ul {
+    width: 110px;
+}
+
+.footer-top ul li a {
+    margin-bottom: 12px;
+}
+
+.footer-search {
+    width: 100%;
+}
+
+.footer-search form {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 40px;
+    padding: 0 12px;
+}
+
+.footer-search form input::placeholder {
+    color: #D9DBE1;
+}
+
+.footer-search form img {
+    cursor: pointer;
+}
+
+
+.footer-search form input {
+    background-color: transparent;
+    height: inherit;
+    outline: none;
+    border: none;
+    color: #D9DBE1;
+}
+
+.footer-bottom div {
+    width: 200px;
+}

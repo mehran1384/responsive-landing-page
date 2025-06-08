@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap Css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- My Css Link -->
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Overlay -->
+    <span class="overlay position-fixed w-100 d-md-none z-2"></span>
+    <!-- Header -->
+    <header class="bg-silver">
+        <div class="container-nav">
+            <!-- Navbar -->
+            <div class="navbar p-0 z-2">
+                <!-- Navbar Logo -->
+                <a href="#">
+                    <img src="images/svg/h-0.svg">
+                </a>
+                <!-- Navbar Menu -->
+                <ul class="p-0 m-0 center justify-content-between w-50 d-none d-md-flex">
+                    <li>
+                        <a class="medium-2 text-grey-900" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900" href="#">Service</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900" href="#">Feature</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900" href="#">Product</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900" href="#">Testimonial</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900" href="#">FAQ</a>
+                    </li>
+                </ul>
+                <!-- Form -->
+                <div class="center justify-content-between form d-none d-md-flex">
+                    <a class="radius-6 center medium-3 text-green-primary px-2 py-1" href="#">Login</a>
+                    <a class="radius-6 center medium-3 text-white bg-green-primary px-2 py-1" href="#">Sign up</a>
+                </div>
+                <!-- Btn -->
+                <button class="btn border-0 p-0 center d-md-none">
+                    <span class="position-relative d-block"></span>
+                </button>
+            </div>
+             <!-- Navbar Mobile -->
+            <div class="navbar-mobile position-fixed top-0 bg-white h-100 d-md-none z-2">
+                <!-- Menu -->
+                <ul class="p-0 m-0 w-100">
+                    <li>
+                        <a class="medium-2 text-grey-900 p-3  d-block border-bottom" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900  p-3 d-block border-bottom" href="#">Service</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900  p-3 d-block border-bottom" href="#">Feature</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900  p-3 d-block border-bottom" href="#">Product</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900  p-3 d-block border-bottom" href="#">Testimonial</a>
+                    </li>
+                    <li>
+                        <a class="regular-2 text-grey-900 p-3 d-block border-bottom" href="#">FAQ</a>
+                    </li>
+                </ul>
+                <!-- Form -->
+                <div class="w-100 center justify-content-around p-3 form-mobile">
+                    <a class="radius-6 center border-green-primary medium-3 text-green-primary px-2 py-1" href="#">Login</a>
+                    <a class="radius-6 center border-green-primary medium-3 text-green-primary px-2 py-1" href="#">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <section class="hero bg-silver py-5 py-md-3">
+            <div class="container">
+                <!-- row -->
+                <div class="row row-cols-1 row-cols-md-2 flex-md-row-reverse center justify-content-lg-between">
+                    <!-- Col Img -->
+                    <div class="col mb-5 mb-md-0 col-lg-5 hero-top">
+                        <img class="w-100" src="images/m-0.png">
+                    </div>
+                    <!-- Col Texts -->
+                    <div class="col text-center col-lg-7 text-md-start center align-items-md-start flex-column hero-bottom">
+                        <h1 class="heading-1 text-grey my-3 my-xl-0">Lessons and insights <span class="text-green-primary">from 8 years</span></h1>
+                        <p class="regular-2 text-grey my-xl-3">Where to grow your business as a photographer: site or social media?</p>
+                        <a class="text-white bg-green-primary p-2 radius-6 center btn-primary height-xl-52 medium-2 mt-32 " href="#">Register</a>
+                    </div>
+                </div>
+                <!-- row -->
+                <div class="w-100 justify-content-end mt-5 pe-3 justify-content-md-center center hero-xxl-circle start-0">
+                    <!-- Col Circles -->
+                    <div class="center justify-content-between circles p-0">
+                        <span class="rounded-circle bg-green-primary opacity-none"></span>
+                        <span class="rounded-circle bg-green-primary opacity-none"></span>
+                        <span class="rounded-circle bg-green-primary opacity-none"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients -->
+        <section class="client mt-40">
+            <div class="container">
+                <div class="row flex-column justify-content-center text-center">
+                    <div class="col client-top center flex-column text-center mb-3">
+                        <h3 class="heading-2 text-d-grey mb-2">Our Clients</h3>
+                        <p class="regular-2 text-d-grey">We have been working with some Fortune 500+ clients</p>
+                    </div>
+                    <div class="col client-bottom">
+                        <div class="row row-cols-2 client-bottom__wrap justify-content-between">
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-0.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-1.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-2.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-3.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-4.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-5.svg">
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-1 mb-2 mb-md-0 center">
+                                <img src="images/svg/client-6.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Community -->
+        <section class="mt-40">
+            <div class="container">
+                <!-- Text -->
+                <div class="row mb-5 mb-sm-3">
+                    <div class="col text-center center flex-column community-top">
+                        <h2 class="heading-2 mb-2 text-d-grey">Manage your entire community in a single system</h2>
+                        <p class="regular-2 text-d-grey">Who is Nextcent suitable for?</p>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center justify-content-lg-between">
+                    <div class="col center mb-2 mb-lg-0">
+                        <div class="card-community py-4 text-center center flex-column ">
+                            <img class="mb-3" src="images/svg/comunity-c-0.svg">
+                            <h4 class="mb-2 heading-3 text-d-grey">Membership Organisations</h4>
+                            <p class="text-grey regular-3">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                    <div class="col center mb-2 mb-lg-0">
+                        <div class="card-community py-4 text-center center flex-column ">
+                            <img class="mb-3" src="images/svg/comunity-c-1.svg">
+                            <h4 class="mb-2 heading-3 text-d-grey">National Associations</h4>
+                            <p class="text-grey regular-3">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                    <div class="col center">
+                        <div class="card-community py-4 text-center center flex-column ">
+                            <img class="mb-3" src="images/svg/comunity-c-2.svg">
+                            <h4 class="mb-2 heading-3 text-d-grey">Clubs And Groups</h4>
+                            <p class="text-grey regular-3">Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Unlock -->
+        <section class="unlock mt-40">
+            <div class="container">
+                <div class="row text-center text-lg-start">
+                    <!-- img -->
+                    <div class="col-12 col-lg-5 unlock-top">
+                        <img src="images/unlock-0.png" alt="">
+                    </div>
+                    <!-- Text -->
+                    <div class="col-12 col-lg-7 center align-items-lg-start flex-column unlock-bottom">
+                        <h2 class="heading-2 text-d-grey my-3 my-lg-0 mb-lg-3">The unseen of spending three years at Pixelgrade</h2>
+                        <p class="regular-3 text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                        <a class="bg-green-primary text-white regular radius-6 mt-32 medium-2 p-2 unlock-bottom__btn center height-xl-52" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Achievement -->
+        <section class="achievement mt-40 bg-silver py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Text -->
+                    <div class="col-12 col-lg-6 achievement-card center align-items-lg-start flex-column mb-4 text-center text-lg-start">
+                        <h3 class="heading-2 text-d-grey mb-2">Helping a local <span class="text-green-primary"> business reinvent itself</span></h3>
+                        <p class="regular-2 text-grey-900 ">We reached here with our hard work and dedication</p>
+                    </div>
+                    <!-- Cards -->
+                    <div class="col-12 col-lg-6">
+                        <div class="row row-cols-sm-2">
+                            <!-- Card -->
+                            <div class="col achievement-card center">
+                                <div class="center justify-content-start">
+                                    <!-- Img -->
+                                    <img class="me-3" src="images/svg/archivmenu-0.svg">
+                                    <!-- Text -->
+                                    <div class="w-auto text-start">
+                                        <h4 class="heading-3 text-d-grey">2,245,341</h4>
+                                        <p class="regular-2 text-grey">Members</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="col achievement-card center mt-40 mt-sm-0">
+                                <div class="center justify-content-start">
+                                    <!-- Img -->
+                                    <img class="me-3" src="images/svg/archivmenu-1.png">
+                                    <!-- Text -->
+                                    <div class="w-auto text-start">
+                                        <h4 class="heading-3 text-d-grey">46,328</h4>
+                                        <p class="regular-2 text-grey">Clubs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="col achievement-card center mt-40">
+                                <div class="center justify-content-start">
+                                    <!-- Img -->
+                                    <img class="me-3" src="images/svg/archivmenu-2.svg">
+                                    <!-- Text -->
+                                    <div class="w-auto text-start">
+                                        <h4 class="heading-3 text-d-grey">828,867</h4>
+                                        <p class="regular-2 text-grey">Event Bookings</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="col achievement-card center mt-40">
+                                <div class="center justify-content-start">
+                                    <!-- Img -->
+                                    <img class="me-3" src="images/svg/archivmenu-3.svg">
+                                    <!-- Text -->
+                                    <div class="w-auto text-start">
+                                        <h4 class="heading-3 text-d-grey">1,926,436</h4>
+                                        <p class="regular-2 text-grey">Payments</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Unlock 2-->
+        <section class="unlock mt-40">
+            <div class="container">
+                <div class="row text-center text-lg-start">
+                    <!-- img -->
+                    <div class="col-12 col-lg-5 unlock-top mb-3">
+                        <img src="images/unlock-1.png" alt="">
+                    </div>
+                    <!-- Text -->
+                    <div class="col-12 col-lg-7 center align-items-lg-start flex-column unlock-bottom unlock-bottom--text">
+                        <h2 class="heading-2 text-d-grey mb-3">How to design your site footer like we did</h2>
+                        <p class="regular-3 text-grey unlock-caption">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                        <a class="bg-green-primary text-white regular radius-6 mt-32 medium-2 p-2 unlock-bottom__btn center height-xl-52" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Custom -->
+        <section class="custom mt-40 bg-silver center py-5 py-xxl-0">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-lg-4 center custom-top">
+                        <img src="images/custom.png">
+                    </div>
+                    <div class="col-12 col-lg-8 center align-items-lg-start text-center text-lg-start flex-column custom-bottom pb-lg-0">
+                        <p class="medium-2 text-grey mb-3">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                        <h4 class="text-green-primary heading-4 mb-2">Tim Smith</h4>
+                        <p class="regular-2 text-l-grey">British Dragon Boat Racing Association</p>
+                        <div class="center flex-column mt-32 w-100">
+                            <div class="center justify-content-between custom-bottom__client flex-wrap">
+                                <div class="custom-col">
+                                    <img src="images/svg/custom-0.svg">
+                                </div>
+                                <div class="custom-col">
+                                    <img src="images/svg/client-1.svg">
+                                </div>
+                                <div class="custom-col">
+                                    <img src="images/svg/client-2.svg">
+                                </div>
+                                <div class="custom-col">
+                                    <img src="images/svg/client-3.svg">
+                                </div>
+                                <div class="custom-col">
+                                    <img src="images/svg/client-4.svg">
+                                </div>
+                                <div class="custom-col center">
+                                    <img src="images/svg/client-5.svg">
+                                </div>
+                                <a class="heading-4 text-green-primary center text-center mt-3 mt-lg-0 custom-active" href="#">Meet all customers
+                                    <img class="ms-2" src="images/svg/custom-1.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Update -->
+        <section class="mt-40">
+            <div class="container update">
+                <div class="row mb-3">
+                    <div class="col-12 text-center center flex-column update-text">
+                        <h2 class="mb-2 heading-2 text-d-grey">Caring is the new marketing</h2>
+                        <p class="regular-2 text-grey">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xxl-3">
+                    <div class="col update-wrap position-relative center">
+                        <img src="images/update-0.png">
+                        <div class="update-card position-absolute bg-silver rounded-3 text-center p-3 center justify-content-start flex-column">
+                            <h4 class="heading-4 text-grey">Creating Streamlined Safeguarding Processes with OneRen</h4>
+                            <a class="text-green-primary center heading-4 w-100 mt-3" href="#">Readmore
+                                <img class="ms-2" src="images/svg/custom-1.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col update-wrap position-relative center">
+                        <img src="images/update-1.png">
+                        <div class="update-card position-absolute bg-silver rounded-3 text-center p-3 center justify-content-start flex-column">
+                            <h4 class="heading-4 text-grey">What are your safeguarding responsibilities and how can you manage them?</h4>
+                            <a class="text-green-primary center heading-4 w-100 mt-3" href="#">Readmore
+                                <img class="ms-2" src="images/svg/custom-1.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col update-wrap position-relative center mt-md-4 mt-xxl-0">
+                        <img src="images/update-2.png">
+                        <div class="update-card position-absolute bg-silver rounded-3 text-center p-3 center justify-content-start flex-column">
+                            <h4 class="heading-4 text-grey">Revamping the Membership Model with Triathlon Australia</h4>
+                            <a class="text-green-primary center heading-4 w-100 mt-3" href="#">Readmore
+                                <img class="ms-2" src="images/svg/custom-1.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last-title py-5 bg-silver mt-5">
+            <div class="container">
+                <div class="center text-center flex-column last-title-wrap">
+                    <h2 class="heading-1 text-black">Pellentesque suscipit fringilla libero eu.</h2>
+                    <a class="bg-green-primary mt-32 rounded-1 medium-2 text-white p-2 px-3 center " href="#">
+                        Get a Demo
+                        <img src="images/svg/last-update.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-black py-4">
+        <div class="container">
+            <div class="row flex-column flex-lg-row-reverse center">
+                <!-- Footer List -->
+                <div class="col-12 col-lg-8 center flex-column flex-sm-row align-items-sm-start justify-content-sm-around footer-top mb-5 mb-lg-0">
+                    <ul>
+                        <li>
+                            <a class="heading-4 text-white d-block mb-4" href="#">Company</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">About us</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Testimonials</a>
+                        </li>
+                    </ul>
+                    <ul class="my-4 my-sm-0">
+                        <li>
+                            <a class="heading-4 text-white d-block mb-4" href="#">Support</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Help center</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Terms of service</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Legal</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a class="regular-3 text-silver d-block" href="#">Status</a>
+                        </li>
+                    </ul>
+                    <div class="footer-search">
+                        <a class="heading-4 text-white d-block mb-4 text-center text-sm-start" href="#">Stay up to date</a>
+                        <form class="center justify-content-between rounded-3">
+                            <input class="regular-3" type="text" placeholder="Your email address">
+                            <img src="images/svg/footer-0.svg" alt="">
+                        </form>
+                    </div>
+                </div>
+                <!-- Footer Info -->
+                <div class="col-12 col-lg-4 center flex-column align-items-lg-start footer-bottom">
+                    <img src="images/svg/footer-1.svg" alt="">
+                    <p class="mt-32 regular-3 text-silver">Copyright © 2020 Nexcent ltd.</p>
+                    <p class="regular-3 text-silver">All rights reserved</p>
+                    <div class="mt-32 center justify-content-between justify-content-lg-start">
+                        <a href="#">
+                            <img src="images/svg/footer-2.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/svg/footer-3.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/svg/footer-4.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/svg/footer-5.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- My Scripts -->
+    <script src="scripts/app.js"></script>
+</body>
+</html>

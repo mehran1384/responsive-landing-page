@@ -1,0 +1,554 @@
+@media (min-width: 350px) {
+
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */ 
+
+    .hero-top {
+        width: 320px;
+    }
+
+    .hero-top img {
+        width: 100%;
+    }
+
+    .hero-bottom h1 {
+        width: 261px;
+    }
+
+    .hero-bottom p {
+        width: 229px;
+    }
+
+    /* -/-/-/-/-/ Clients /-/-/-/-/ */
+
+    .client-bottom__wrap img {
+        width: 60px;
+    }
+
+    /* -/-/-/-/-/ Community /-/-/-/-/ */
+
+    .card-community {
+        width: 299px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-top img {
+        width: 298px;
+    }
+
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom-top img {
+        width: 303px;
+    }
+
+    .custom-col {
+        width: 33.3%;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    /* -/-/-/-/-/ Clients /-/-/-/-/ */
+
+    .client-top p {
+        width: auto;
+    } 
+
+    /* -/-/-/-/-/ Community /-/-/-/-/ */
+
+    .community-top h2 {
+        width: 387px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-top img {
+        width: 360px;
+    }
+
+    .unlock-bottom h2 {
+        width: 370px;
+    }
+    
+    .unlock-bottom p {
+        width: 485px;
+    }
+
+    /* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+    .achievement-card p {
+        width: 100%;  
+    }
+
+    /* -/-/-/-/-/ Unlock 2 /-/-/-/-/ */
+
+    .unlock-bottom p {
+        width: 491px;
+    }
+
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom-bottom p {
+        width: 541px;
+    }
+
+    .custom-col {
+        width: auto;
+    }
+
+    /* -/-/-/-/-/ Footer /-/-/-/-/ */
+
+    .footer-search {
+        width: auto;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /* -/-/-/-/-/ Heading /-/-/-/-/ */ 
+
+    .heading-1, .heading-2 {
+        font: 600 32px / 44px var(--semi-bold);
+    }
+    
+    
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */ 
+
+    .hero-bottom h1 {
+        width: 321px;
+    }
+
+     .hero-bottom p {
+        width: 317px;
+    }
+
+    .circles {
+        bottom: -20px;
+        right:  50%;
+    }
+
+    /* -/-/-/-/-/ Clients /-/-/-/-/ */
+
+    .client-bottom img {
+        width: auto;
+    }
+
+    /* -/-/-/-/-/ Community /-/-/-/-/ */
+
+
+    .community-top h2 {
+        width: 476px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-bottom h2 {
+        width: 379px;
+    }
+
+    /* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+    .achievement-card h3 {
+        width: 353px;
+    }
+
+    /* -/-/-/-/-/ Update /-/-/-/-/ */
+
+    .update-text p {
+        width: 563px;
+    }
+
+    .update-card a {
+        height: 44px;
+        font-size: 0.875rem;
+    }
+
+    /* -/-/-/-/-/ Last Title /-/-/-/-/ */
+
+    .last-title-wrap h2 {
+        width: 326px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    /* -/-/-/-/-/ Heading /-/-/-/-/ */ 
+
+    .heading-1 {
+        font: 600 44px / 54px var(--semi-bold);
+    }
+
+    /* -/-/-/-/-/ Form /-/-/-/-/ */ 
+
+    .form {
+        width: 15.9%;
+    }
+
+    .form a:first-child {
+        width: 71px;
+    }
+ 
+    .form a:last-child {
+        width: 91px;
+    }
+
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */
+
+    .hero-bottom h1 {
+        width: 441px;
+    } 
+
+    .hero-bottom p {
+        width: 100%;
+    }
+
+    .hero-bottom a {
+        width: 100px;
+    }
+
+    /* -/-/-/-/-/ Clients /-/-/-/-/ */
+
+    .client {
+        height: 198px;
+    }
+
+    .client-bottom__wrap {
+        height: 98px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-top img {
+        width: 100%;
+    }
+
+    .unlock-bottom h2 {
+        width: 456px;
+    }
+
+    .unlock-bottom p {
+        width: 468px;
+    }
+
+    /* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+    .achievement-card h3 {
+        width: 368px;
+    }
+
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom-bottom {
+        height: 324px;
+    }
+
+    .custom-top img {
+        width: 326px;
+    }
+
+    .custom-bottom p {
+        width: 556px;
+    }
+
+    .custom-active {
+        width: auto;
+    }
+
+    /* -/-/-/-/-/ Last Title /-/-/-/-/ */
+
+    .last-title-wrap h2 {
+        font: 600 32px / 44px var(--semi-bold);
+    }
+
+    /* -/-/-/-/-/ Footer /-/-/-/-/ */
+
+    .footer-bottom a {
+        margin-left: 12px;    
+    }
+
+    .footer-bottom a:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */
+
+    .hero-top {
+        width: 391px;
+        height: 407px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-top img {
+        width: 442px;
+        height: 433px;
+    }
+
+    .unlock-bottom a {
+        width: 151px;
+        height: 52px;
+    }
+    
+    .unlock-bottom p {
+        width: 572px;
+    }
+
+    /* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+    .achievement {
+        padding: 64px 0 !important;
+    }
+    
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom-top img {
+        height: 326px; 
+    }
+
+    .custom-bottom p {
+        width: 643px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+
+    .unlock-bottom--text h2 {
+        width: 518px;
+    }
+
+    .unlock-bottom--text p {
+        width: 587px;
+    }
+
+    /* -/-/-/-/-/ Update /-/-/-/-/ */
+
+    .update p {
+        width: 563px;
+    }
+
+    .update-wrap {
+        margin-bottom: 110px;
+    }
+
+    .update-wrap img {
+        width: 386px;
+        height: 286px;
+    }
+
+    .update-card {
+        width: 317px;
+        height: 176px;
+        bottom: -80px;
+    }
+
+    .update-card h4 {
+        width: 284px;
+        font: 600 1.25rem / 28px var(--semi-bold);
+    }
+
+    .update-card a {
+        font: 600 1.25rem / 28px var(--semi-bold);
+    }
+
+    /* -/-/-/-/-/ Last Title /-/-/-/-/ */
+
+    .last-title {
+        margin-top: 94px !important;
+    }
+
+    .last-title {
+        padding: 32px 0 !important;
+        height: 300px;
+    }
+
+    .last-title-wrap h2 {
+        width: 488px;
+        font: 600 48px / 56px var(--semi-bold);
+    }
+
+    .last-title-wrap a {
+        height: 52px;
+        padding: 14px 32px;
+    }
+
+    /* -/-/-/-/-/ Footer /-/-/-/-/ */
+
+    footer .container .row {
+        height: 328px;
+        padding: 64px 0;
+    }
+
+    .footer-search form {
+        width: 255px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* -/-/-/-/-/ Heading /-/-/-/-/ */
+
+    .heading-1 {
+        font: 600 48px / 56px var(--semi-bold);
+    }
+
+    /* -/-/-/-/-/ Regular /-/-/-/-/ */ 
+
+    .regular-3 {
+        font: 400 0.875rem / 20px var(--regular);
+    }
+
+    /* -/-/-/-/-/ Height /-/-/-/-/ */ 
+
+    .height-xl-52 {
+        height: 52px;
+        padding: 14px 32px !important;
+    }
+
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */
+
+    .hero {
+        padding: 0 !important;
+        padding-top: 96px !important;
+        height: 599px;
+        position: relative;
+    }
+
+    .hero-bottom a {
+        width: 106px;
+    }
+
+    .hero-xxl-circle {
+        position: absolute;
+        bottom: 16px;
+    }
+
+    .hero-bottom h1 {
+        width: 481px;
+    }
+
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom {
+        height: 390px;
+    }
+
+    /* -/-/-/-/-/ Update /-/-/-/-/ */
+
+    .update {
+        height: 506px;   
+    }
+
+    .update-wrap {
+        margin-bottom: 0;
+    }
+
+    .update p {
+        width: 616px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    /* -/-/-/-/-/ Heading /-/-/-/-/ */ 
+
+    .heading-1 {
+        font: 600 4rem / 76px var(--semi-bold);
+    }
+    
+    .heading-2 {
+        font: 600 2.25rem / 44px var(--semi-bold);
+    }
+    
+    .heading-3 {
+        font: 700 1.75rem / 36px var(--bold);
+    }
+    
+    .heading-4 {
+        font: 600 1.25rem / 28px var(--semi-bold);
+    }
+    
+    /* -/-/-/-/-/ Medium /-/-/-/-/ */ 
+    
+    .medium-1 {
+        font-size: 1.125rem;
+        line-height: 28px;
+    }
+    
+    .medium-2 {
+        font: 500 1rem / 24px var(--medium);
+    }
+    
+    .medium-3 {
+        font: 500 0.875rem / 20px var(--medium);
+    }
+    
+    .medium-4 {
+        font-size: 0.75rem;
+        line-height: 16px;
+    }
+    
+    /* -/-/-/-/-/ Regular /-/-/-/-/ */ 
+    
+    .regular-1 {
+        font-family: var(--regular);
+        font-size: 1.125rem;
+        font-weight: 28px;
+    }
+    
+    .regular-2 {
+        font: 400 1rem / 24px var(--regular);
+    }
+    
+    .regular-4 {
+        font-family: var(--regular);
+        font-size: 0.75rem;
+        font-weight: 16px;
+    }
+
+    /* -/-/-/-/-/ Hero /-/-/-/-/ */ 
+
+    .hero-bottom h1 {
+        width: 641px;
+    }
+
+    .hero-bottom a {
+        width: 128px;
+    }
+
+    /* -/-/-/-/-/ Community /-/-/-/-/ */
+
+    .community-top h2 {
+        width: 535px;
+    }
+
+    /* -/-/-/-/-/ Unlock /-/-/-/-/ */
+    .unlock-bottom h2 {
+        width: 513px;
+    }
+
+    /* -/-/-/-/-/ Achievement /-/-/-/-/ */
+
+    .achievement-card h3 {
+        width: 414px;
+    }
+
+    /* -/-/-/-/-/ Unlock 2 /-/-/-/-/ */
+
+    .unlock-bottom h2 {
+        width: 582px;
+    }
+
+    /* -/-/-/-/-/ Custom /-/-/-/-/ */
+
+    .custom-bottom p {
+        width: 734px;
+    }
+
+}
