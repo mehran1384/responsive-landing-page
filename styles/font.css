@@ -1,17 +1,27 @@
+/*  *//*  -/-/-/-/-/-/-/-/-/-/ Inter Fonts /-/-/-/-/-/-/-/-/-/- */
+
+/* -/-/-/-/-/ Inter Regular /-/-/-/-/ */ 
+
 @font-face {
     font-family: 'inter regular';
     src: url('../fonts/Inter_18pt-Regular.ttf');
 }
+
+/* -/-/-/-/-/ Inter Medium /-/-/-/-/ */ 
 
 @font-face {
     font-family: 'inter medium';
     src: url('../fonts/Inter_18pt-Medium.ttf');
 }
 
+/* -/-/-/-/-/ Inter Semi-bold /-/-/-/-/ */ 
+
 @font-face {
     font-family: 'inter semi-bold';
     src: url('../fonts/Inter_18pt-SemiBold.ttf');
 }
+
+/* -/-/-/-/-/ Inter Bold /-/-/-/-/ */ 
 
 @font-face {
     font-family: 'inter bold';
