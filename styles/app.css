@@ -251,6 +251,8 @@ h1,h2,h3,h4,h5,h6 {
     height: 100%;
     visibility: hidden;
     transition: background-color 300ms ease;
+    backdrop-filter: blur(15px);
+    z-index: 100;
 }
 
 .overlay--open {
