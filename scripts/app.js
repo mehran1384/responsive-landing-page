@@ -11,13 +11,13 @@ btn.addEventListener('click', () => {
         navMobile.style.left = '-240px';
         btn.classList.remove('btn--open');
         overlay.classList.remove('overlay--open');
-        
+        document.body.style.overflow = 'auto';
         menu = false;
     } else {
         navMobile.style.left = '0';
         btn.classList.add('btn--open');
         overlay.classList.add('overlay--open');
-        
+        document.body.style.overflow = 'hidden';
         menu = true;
     }
 });
